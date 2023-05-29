@@ -1,0 +1,29 @@
+/* PAGINA CARRITO DE COMPRAS */
+#carritoCompras {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(215, 248, 248);
+
+    .productoElegido {
+        width: 35%;
+
+        .productoCarrito {
+            width: 100%;
+        }
+    }
+}
+
+@include mediaquery-mobile(){
+    #carritoCompras {
+        width: auto;
+        margin: auto;
+    }
+}
+
+
+
+

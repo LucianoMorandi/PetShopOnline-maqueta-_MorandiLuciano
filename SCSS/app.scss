@@ -1,0 +1,18 @@
+
+// BASE
+@import './BASE/colors.scss';
+@import './BASE/mediaqueries.scss';
+@import './BASE/reset.scss';
+@import './BASE/tipografy.scss';
+
+// LAYOUT
+@import './LAYOUT/footer.scss';
+@import './LAYOUT/header.scss';
+@import './LAYOUT/main.scss';
+
+// PAGES
+ @import './PAGES/cart.scss';
+ @import './PAGES/contact.scss';
+ @import './PAGES/index.scss';
+ @import './PAGES/order.scss';
+ @import './PAGES/products.scss';
