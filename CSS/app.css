@@ -177,13 +177,19 @@ h2 {
 }
 
 /* Productos*/
+#botonCategorias {
+  margin: 20px;
+}
+
 .contenedor-productos {
   display: grid;
+  justify-items: center;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 .contenedor-productos .producto {
   border-radius: 10px;
+  width: 80%;
 }
 .contenedor-productos .producto:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -211,14 +217,6 @@ h2 {
   font-size: 20 px;
   font-weight: 500;
   text-align: center;
-}
-.contenedor-productos .producto .info-producto button {
-  border: none;
-  background: none;
-  background-color: black;
-  color: white;
-  padding: 15px 10px;
-  cursor: pointer;
 }
 
 @media (max-width: 576px) {

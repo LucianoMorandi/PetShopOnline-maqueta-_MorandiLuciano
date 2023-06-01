@@ -10,13 +10,19 @@
 }
 
 /* Productos*/
+#botonCategorias{
+    margin: 20px;
+}
+
 .contenedor-productos {
     display: grid;
+    justify-items: center;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 
     .producto {
         border-radius: 10px;
+        width: 80%;
 
         &:hover {
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
@@ -47,14 +53,7 @@
                 font-weight: 500;
                 text-align: center;
             }
-            button {
-                border: none;
-                background: none;
-                background-color: black;
-                color: white;
-                padding: 15px 10px;
-                cursor: pointer;
-            }
+            
         }
     }
 }

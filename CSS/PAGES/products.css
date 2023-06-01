@@ -1,16 +1,16 @@
 /* Error: Undefined mixin.
  *    ,
- * 63 | / @include mediaquery-mobile(){
- * 64 | |     .contenedor-productos {
- * 65 | |         grid-template-columns: repeat(2, 1fr);
- * 66 | |         gap: 10px;
- * 67 | |     }
- * 68 | |     iframe {
- * 69 | |         width: 100%;
- * 70 | |     }
- * 71 | \ }
+ * 62 | / @include mediaquery-mobile(){
+ * 63 | |     .contenedor-productos {
+ * 64 | |         grid-template-columns: repeat(2, 1fr);
+ * 65 | |         gap: 10px;
+ * 66 | |     }
+ * 67 | |     iframe {
+ * 68 | |         width: 100%;
+ * 69 | |     }
+ * 70 | \ }
  *    '
- *   scss\PAGES\products.scss 63:1  root stylesheet */
+ *   scss\PAGES\products.scss 62:1  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -20,5 +20,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 63 \2502  \250c  @include mediaquery-mobile(){\a 64 \2502  \2502      .contenedor-productos {\a 65 \2502  \2502          grid-template-columns: repeat(2, 1fr);\a 66 \2502  \2502          gap: 10px;\a 67 \2502  \2502      }\a 68 \2502  \2502      iframe {\a 69 \2502  \2502          width: 100%;\a 70 \2502  \2502      }\a 71 \2502  \2514  }\a    \2575 \a   scss\\PAGES\\products.scss 63:1  root stylesheet";
+  content: "Error: Undefined mixin.\a    \2577 \a 62 \2502  \250c  @include mediaquery-mobile(){\a 63 \2502  \2502      .contenedor-productos {\a 64 \2502  \2502          grid-template-columns: repeat(2, 1fr);\a 65 \2502  \2502          gap: 10px;\a 66 \2502  \2502      }\a 67 \2502  \2502      iframe {\a 68 \2502  \2502          width: 100%;\a 69 \2502  \2502      }\a 70 \2502  \2514  }\a    \2575 \a   scss\\PAGES\\products.scss 62:1  root stylesheet";
 }

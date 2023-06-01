@@ -56,17 +56,19 @@
             <!-- Todos los productos  -->
             <h1>TODOS LOS PRODUCTOS</h1>
             <!-- Selector categoría  -->
-            <section id="seccionProductos">
-                <input type="radio" name="filtro" id="todos" checked>
-                <label for="todos">Todos</label>
-                <input type="radio" name="filtro" id="perros">
-                <label for="perros">Perros</label>
-                <input type="radio" name="filtro" id="gatos">
-                <label for="gatos">Gatos</label>
-                <input type="radio" name="filtro" id="cachorros">
-                <label for="cachorros">Cachorros</label>
-                <input type="radio" name="filtro" id="ofertas">
-                <label for="ofertas">ofertas</label>
+            <div class="dropdown dropend">
+                <button id="botonCategorias" class="btn btn-warning btn-lg btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorías de productos
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Perros</a></li>
+                  <li><a class="dropdown-item" href="#">Gatos</a></li>
+                  <li><a class="dropdown-item" href="#">Cachorros</a></li>
+                  <li><a class="dropdown-item" href="#">Mayores +7</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">EN OFERTA</a></li>
+                </ul>
+            </div>
                 <!-- Productos  -->
                 <div class="contenedor-productos">
                     <div class="producto" class="perros">
@@ -76,7 +78,7 @@
                         <div class="info-producto">
                             <h2>Pedigree adulto x21kg</h2>
                             <p class="precio">$4000</p>
-                            <button>Añadir al carrito</button>
+                            <button type="button" class="btn btn-warning">Añadir al carrito</button>
                         </div>
                     </div>
                     <div class="producto" class="cachorros">
@@ -86,7 +88,7 @@
                         <div class="info-producto">
                             <h2>Pedigree cachorro x21kg</h2>
                             <p class="precio">$5000</p>
-                            <button>Añadir al carrito</button>
+                            <button type="button" class="btn btn-warning">Añadir al carrito</button>
                         </div>
                     </div>
                     <div class="producto" class="perros">
@@ -96,7 +98,7 @@
                         <div class="info-producto">
                             <h2>Pedigree pequeños x15kg</h2>
                             <p class="precio">$6000</p>
-                            <button>Añadir al carrito</button>
+                            <button type="button" class="btn btn-warning">Añadir al carrito</button>
                         </div>
                     </div>
                     <div class="producto" class="perros">
@@ -106,7 +108,7 @@
                         <div class="info-producto">
                             <h2>Pedigree senior x8kg</h2>
                             <p class="precio">$7000</p>
-                            <button>Añadir al carrito</button>
+                            <button type="button" class="btn btn-warning">Añadir al carrito</button>
                         </div>
                     </div>
                     <div class="producto" class="gatos">
@@ -116,7 +118,7 @@
                         <div class="info-producto">
                             <h2>Whiskas carne x10kg</h2>
                             <p class="precio">$9000</p>
-                            <button>Añadir al carrito</button>
+                            <button type="button" class="btn btn-warning">Añadir al carrito</button>
                         </div>
                     </div>
                     <div class="producto" class="cachorros">
@@ -126,7 +128,7 @@
                         <div class="info-producto">
                             <h2>Whiskas gatitos x10kg</h2>
                             <p class="precio">$9000</p>
-                            <button>Añadir al carrito</button>
+                            <button type="button" class="btn btn-warning">Añadir al carrito</button>
                         </div>
                     </div>
                     <div class="producto" class="gatos">
@@ -136,7 +138,7 @@
                         <div class="info-producto">
                             <h2>Whiskas pescado x10kg</h2>
                             <p class="precio">$9000</p>
-                            <button>Añadir al carrito</button>
+                            <button type="button" class="btn btn-warning">Añadir al carrito</button>
                         </div>
                     </div>
                     <div class="producto" class="gatos">
@@ -146,7 +148,7 @@
                         <div class="info-producto">
                             <h2>Whiskas pollo x10kg</h2>
                             <p class="precio">$9000</p>
-                            <button>Añadir al carrito</button>
+                            <button type="button" class="btn btn-warning">Añadir al carrito</button>
                         </div>
                     </div>
                 </div>
