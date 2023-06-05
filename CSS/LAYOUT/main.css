@@ -1,17 +1,17 @@
-main {
-  background-color: rgb(167, 247, 247);
-}
+/* Error: Undefined variable.
+ *   ,
+ * 2 |     background-color: $color-secundario;
+ *   |                       ^^^^^^^^^^^^^^^^^
+ *   '
+ *   scss\LAYOUT\main.scss 2:23  root stylesheet */
 
-h1 {
-  font-weight: 400;
-  text-align: center;
-  margin: 0 20px 30px 20px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 2 \2502      background-color: $color-secundario;\d\a   \2502                        ^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\LAYOUT\\main.scss 2:23  root stylesheet";
 }
-
-h2 {
-  font-weight: 500;
-  font-size: large;
-  text-align: center;
-}
-
-/*# sourceMappingURL=main.css.map */
