@@ -35,7 +35,6 @@ header {
 }
 header a {
   margin: 0 15px;
-  font-size: medium;
 }
 
 #imageLogo {
@@ -152,6 +151,15 @@ h2 {
     margin: 0;
   }
 }
+.tachado {
+  text-decoration: line-through;
+}
+
+.precio-oferta {
+  font-weight: bold;
+  font-size: larger;
+}
+
 /* PAGINA ORDEN DE COMPRA */
 .formulario-compra {
   margin: 20px;
