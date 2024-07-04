@@ -17,4 +17,4 @@ Este es un sitio web estático que utiliza HTML, CSS, Bootstrap y SASS para crea
 
 ## Deploy
 
-El deploy del sitio se realiza utilizando [GitHub Pages](https://pages.github.com/). Puedes ver el sitio en vivo [aquí](https://tu-usuario.github.io/nombre-del-repositorio).
+El deploy del sitio se realiza utilizando [GitHub Pages](https://pages.github.com/). Puedes ver el sitio en vivo [aquí](https://lucianomorandi.github.io/PetShopOnline_MorandiLuciano/).
