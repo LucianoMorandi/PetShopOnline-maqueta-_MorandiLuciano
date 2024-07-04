@@ -14,3 +14,7 @@ Este es un sitio web estático que utiliza HTML, CSS, Bootstrap y SASS para crea
 - **Totalmente Responsive**: El diseño se adapta a diferentes tamaños de pantalla y dispositivos.
 - **Diseño Moderno**: Utiliza los componentes y estilos de Bootstrap para una apariencia moderna y profesional.
 - **CSS Personalizado**: Utiliza SASS para personalizar y organizar los estilos.
+
+## Deploy
+
+El deploy del sitio se realiza utilizando [GitHub Pages](https://pages.github.com/). Puedes ver el sitio en vivo [aquí](https://tu-usuario.github.io/nombre-del-repositorio).
